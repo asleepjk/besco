@@ -130,6 +130,7 @@ html, body {
     top: 10px;
     right: 10px;
     z-index: 20;
+    bottom: unset;
   }
 }
 
