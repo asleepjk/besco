@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visor de Proyectos</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.32/esri/themes/light/main.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://js.arcgis.com/4.32/"></script>
+  </head>
+  <body>
+    <!-- Logo -->
+    <div id="logo-container">
+      <img src="assets/logo.svg" alt="Logo Empresa" id="logo-img" />
+    </div>
+
+    <!-- Panel de Proyectos -->
+    <div id="panel-izquierdo">
+      <h2>Proyectos</h2>
+      <ul id="proyecto-listado"></ul>
+    </div>
+
+    <!-- Panel de Personal -->
+    <div id="panel-derecho">
+      <h2>Personal del Proyecto</h2>
+      <div id="personal-panel"></div>
+    </div>
+
+    <!-- Controles móviles -->
+    <div id="mobile-controls">
+      <button onclick="togglePanel('proyectos')">Proyectos</button>
+      <button onclick="togglePanel('personal')">Personal</button>
+    </div>
+
+    <!-- Contenedor del Mapa -->
+    <div id="viewDiv"></div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

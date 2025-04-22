@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#viewDiv {
+  position: absolute;
+  top: 0;
+  left: 300px;
+  right: 300px;
+  bottom: 0;
+}
+
+/* Logo */
+#logo-container {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 20;
+}
+
+#logo-img {
+  height: 60px;
+  width: auto;
+}
+
+/* Paneles laterales */
+#panel-izquierdo,
+#panel-derecho {
+  position: absolute;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  background-color: #fff;
+  overflow-y: auto;
+  padding: 10px;
+  z-index: 10;
+}
+
+#panel-izquierdo {
+  left: 0;
+  border-right: 1px solid #ddd;
+}
+
+#panel-derecho {
+  right: 0;
+  border-left: 1px solid #ddd;
+}
+
+#proyecto-listado li {
+  padding: 6px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+#proyecto-listado li:hover {
+  background-color: #f0f0f0;
+}
+
+.personal-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #f9f9f9;
+}
+
+.personal-card h3{
+  color: rgb(5, 65, 139);
+}
+
+/* Controles móviles */
+#mobile-controls {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 15;
+  gap: 10px;
+}
+
+#mobile-controls button {
+  padding: 6px 14px;
+  font-size: 14px;
+  background: #007ac2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin: 0 4px;
+}
+
+#mobile-controls button.active {
+  background-color: #005a9e;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  #viewDiv {
+    left: 0;
+    right: 0;
+  }
+
+  #panel-izquierdo,
+  #panel-derecho {
+    width: 100%;
+    height: 50%;
+    top: auto;
+    bottom: 0;
+    display: none;
+  }
+
+  #panel-izquierdo.active,
+  #panel-derecho.active {
+    display: block;
+  }
+
+  #mobile-controls {
+    display: flex;
+  }
+
+  #logo-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 20;
+  }
+}
+
+body.panel-visible #viewDiv {
+  height: 50%;
+}
+
+body:not(.panel-visible) #viewDiv {
+  height: 100%;
+}
+
