@@ -33,7 +33,43 @@
     </div>
 
     <!-- Contenedor del Mapa -->
-    <div id="viewDiv"></div>
+    <div id="viewDiv">      
+    </div>
+
+    <!-- Contenedor del Filtro de Denuncias -->
+    <div id="filtro-panel" class="filtro-panel">
+      <h3>Filtros de Denuncias</h3>
+    
+      <label for="filtro-anio">Año del Hecho:</label>
+      <select id="filtro-anio">
+        <option value="">TODOS</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+      </select>
+    
+      <label for="filtro-departamento">Departamento:</label>
+      <select id="filtro-departamento">
+        <option value="">Seleccione</option>
+      </select>
+    
+      <label for="filtro-provincia">Provincia:</label>
+      <select id="filtro-provincia" disabled>
+        <option value="">Seleccione</option>
+      </select>
+    
+      <label for="filtro-distrito">Distrito:</label>
+      <select id="filtro-distrito" disabled>
+        <option value="">Seleccione</option>
+      </select>
+    
+      <button id="btn-filtrar">Filtrar</button>
+    </div>
+    
+    
 
     <script src="js/main.js"></script>
   </body>

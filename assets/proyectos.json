@@ -4,55 +4,71 @@
         "Proyecto": "Proyecto Centriqo",
         "Direccion": "Av. Venezuela 2505, Lima 15081",
         "Latitud": -12.0572345372395,
-        "Longitud": -77.0658074319515
+        "Longitud": -77.0658074319515,
+        "Gerente": "Luisa Morales",
+        "NroGerente": "902594465"
     },
     {
         "SEDE_COD": 2,
         "Proyecto": "Alameda Central",
         "Direccion": "Av. Óscar R. Benavides 1194, Lima 15082",
         "Latitud": -12.0474048031005,
-        "Longitud": -77.0569410423273
+        "Longitud": -77.0569410423273,
+        "Gerente": "Marco Fabian",
+        "NroGerente": "999100675"
     },
     {
         "SEDE_COD": 3,
         "Proyecto": "Parques de San Juan",
         "Direccion": "Av. Portada del Sol 870, San Juan de Lurigancho 15427",
         "Latitud": -12.0177022414603,
-        "Longitud": -76.9985416423273
+        "Longitud": -76.9985416423273,
+        "Gerente": "Miguel Dominguez",
+        "NroGerente": "986680167"
     },
     {
         "SEDE_COD": 4,
         "Proyecto": "Alameda Rimac",
         "Direccion": "Av. A 225, Rímac 15094",
         "Latitud": -12.0164918212389,
-        "Longitud": -77.0431115607823
+        "Longitud": -77.0431115607823,
+        "Gerente": "Francisco Seminario",
+        "NroGerente": "982329718"
     },
     {
         "SEDE_COD": 5,
         "Proyecto": "Las Lomas de Rimac",
         "Direccion": "Av. A lote 2, Rímac 15088",
         "Latitud": -12.0167448944663,
-        "Longitud": -77.0418207331664
+        "Longitud": -77.0418207331664,
+        "Gerente": "Francisco Seminario",
+        "NroGerente": "982329718"
     },
     {
         "SEDE_COD": 6,
         "Proyecto": "Nueva Independencia",
         "Direccion": "Urb. Industrial, Av Industrial 3458, Independencia 15311",
         "Latitud": -11.9962389183887,
-        "Longitud": -77.0583504999444
+        "Longitud": -77.0583504999444,
+        "Gerente": "Carol Arevalo",
+        "NroGerente": "933141783"
     },
     {
         "SEDE_COD": 7,
         "Proyecto": "Dorue",
         "Direccion": "Av. Domingo Orué 230, Surquillo 15047",
         "Latitud": -12.1086758536033,
-        "Longitud": -77.0256015288363
+        "Longitud": -77.0256015288363,
+        "Gerente": "Feliz Olazo",
+        "NroGerente": "986208900"
     },
     {
         "SEDE_COD": 8,
         "Proyecto": "Parques de Comas (Consorcio Viva)",
         "Direccion": "Manuel González Prada, Comas 15314",
         "Latitud": -11.9301375979524,
-        "Longitud": -77.0580984576726
+        "Longitud": -77.0580984576726,
+        "Gerente": "Giancarlo Ramirez",
+        "NroGerente": "965770808"
     }
 ]
