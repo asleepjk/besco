@@ -422,7 +422,7 @@ function actualizarMobileControls() {
 
 // Reactivos
 reactiveUtils.watch(() => filtroExpand?.expanded, actualizarMobileControls);
-reactiveUtils.watch(() => view.popup.visible, actualizarMobileControls);
+//reactiveUtils.watch(() => view.popup.visible, actualizarMobileControls);
 
 
   });
